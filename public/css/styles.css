@@ -1,0 +1,125 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    border-bottom: 1px solid #bebcbc;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+
+#login{
+    background: linear-gradient(120deg, #4c79d3 45%, #ffffff 45%) fixed no-repeat;
+    height: 100vh;
+}
+
+.link-default {
+    color: #4E0070;
+    cursor: pointer;
+}
+
+.link-default:hover {
+    color: #4C79D3;
+}
+
+
+#app {
+    background: linear-gradient(120deg, #ffffff 44.9%, #4C79D3 45%) no-repeat fixed;
+    height: 100vh;
+}
+
+.color-primary {
+    color: #4E0070;
+}
+
+.color-secondary {
+    color: #4C79D3;
+}
+
+i:hover {
+    color: #4C79D3;
+}
+
+.button-float {
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    font-size: 35px;
+    position: fixed;
+    padding: 0 !important;
+    bottom: 1rem;
+    right: 2rem;
+    border: 2px solid #4E0070;
+    background-color: #4E0070;
+    color: #ffffff;
+}
+
+.button-float:hover {
+    border: 2px solid #4C79D3;
+    background-color: #ffffff;
+}
+
+.button-default {
+    border-radius: 10px;
+    background-color: #4E0070;
+    color: #ffffff;
+}
+
+.button-cancel {
+    border-radius: 10px;
+}
+
+
+
+.icon-detail {
+    font-size: 50px;
+    margin-right:10px;
+    vertical-align: middle;
+}
+
+.info {
+    background-color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+.menu {
+    margin-right: 20px;
+}
+
+.logout {
+    min-width: 5rem !important;
+}
+
+.text-login {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.button-login {
+    border-radius: 10px;
+    background-color: #4E0070;
+    color: #ffffff;
+    width: 50%;
+    margin: 0 25%;
+}
+
+.button-login:hover, .button-default:hover {
+    background-color: #4C79D3;
+    color: #ffffff;
+}
+
+
+.coins {
+    position: absolute;
+    bottom: 100px;
+}
+
+table thead tr th {
+    border-bottom: 2px solid #000 !important;
+}
